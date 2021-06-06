@@ -1,0 +1,207 @@
+$colorPrincipal: #000;
+$colorSecundario: #606060;
+html {
+	margin: 0;
+	padding: 0;
+	font-family: 'DM Sans', sans-serif;
+	font-size: 62.5%;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+iframe{
+	background-color: white;
+}
+nav {
+	height: 25vh;
+	width: 100vw;
+
+}
+a {
+	color: $colorPrincipal;
+}
+hr {
+	border-top: 1px solid $colorSecundario;
+}
+.landingPage {
+	height: 70vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	img {
+		margin-top: 3vh;
+		width: 9vw;
+		padding-left: 5vw;
+	}
+}
+.titulo {
+	font-weight: 600;
+	font-size: 6rem;
+	text-align: left;
+	padding-left: 5vw;
+	color:$colorPrincipal;
+}
+.titulos {
+	font-size: 4rem;
+	font-weight: 600;
+	padding-left: 5vw;
+	color: $colorPrincipal;
+}
+.subtitulo {
+	color: $colorSecundario;
+	text-align: left;
+	padding-left: 5vw;
+	font-weight: lighter;
+}
+.redes{
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	a{
+		margin: 0 6px 0 6px;
+	}
+}
+.sobremi {
+	width: 100%;
+	margin-right: 2vw;
+	margin-top: 10vh;
+	color: $colorPrincipal;
+	p {
+		color: $colorSecundario;
+		margin-bottom: 5vh;
+		padding-top: 1vh;
+		padding-left: 3vw;
+	}
+}
+.trabajos {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 10vh;
+	padding-left: 5vw;
+	margin-top: 5vh;
+}
+.trabajo {
+	width: 100%;
+	padding-bottom: 5vw;
+	p {
+		color: $colorSecundario;
+	}
+}
+.tituloTrabajos {
+	font-size: 2rem;
+	font-weight: 600;
+	color: $colorPrincipal;
+}
+.descripcion {
+	font-size: 1.5rem;
+	color: $colorPrincipal;
+}
+.imagen {
+	img {
+		width: 85vw;
+		box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	}
+}
+.sobremiTitulo {
+	font-size: 3rem;
+	font-weight: 600;
+	padding-left: 2vw;
+	margin-bottom: 5vh;
+	margin-top: 5vh;
+	color: $colorPrincipal;
+}
+.item {
+	font-size: 1.4rem;
+	padding-left: 2vw;
+	a {
+		color: $colorPrincipal;
+	}
+}
+.linkFinal{
+	font-size: 2rem;
+	margin-left: 5vw;
+}
+@media only screen and (min-width: 998px) {
+	.landingPage {
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 20vh;
+		img {
+			width: 2vw;
+			position: absolute;
+			top: 75%;
+			left: 10%;
+		}
+	}
+	.trabajos {
+		flex-direction: row;
+		width: 90%;
+	}
+	.imagen {
+		img {
+			width: 60vw;
+		}
+	}
+	.sobremiTitulo {
+		font-size: 3rem;
+		font-weight: 600;
+		padding-left: 2vw;
+		margin-bottom: 5vh;
+		margin-top: 5vh;
+		text-decoration: dotted 1px $colorPrincipal;
+		font-size: 4.5rem;
+		font-weight: 600;
+		padding-left: 2vw;
+		margin-bottom: 5vh;
+		margin-top: 5vh;
+		text-decoration: dotted 1px $colorPrincipal;
+	}
+	.item {
+		font-size: 1.4rem;
+		padding-left: 2vw;
+		font-size: 2.4rem;
+		padding-left: 2vw;
+		a {
+			color: $colorPrincipal;
+		}
+	}
+	.trabajo {
+		a {
+			border-bottom: solid 7px bottom;
+			font-size: 2rem;
+			color: $colorPrincipal;
+		}
+	}
+	p {
+		font-size: 1.4rem;
+	}
+	.descripcion {
+		font-size: 2rem;
+	}
+	.tituloTrabajos {
+		font-size: 3.65rem;
+	}
+	.titulo {
+		width: 70vw;
+		font-size: 7rem;
+		padding-left: 12vw;
+	}
+	.subtitulo {
+		font-size: 2.3rem;
+		margin: 20vh 15vw 0 0;
+	}
+}
+@media only screen and (min-width: 1200px) {
+	.imagen {
+		img {
+			width: 60vw;
+	}
+	.sobremi{
+		width: 50vw;
+	}
+	nav{
+		height: 10vh;
+	}
+}
