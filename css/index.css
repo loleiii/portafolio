@@ -16,7 +16,31 @@ iframe {
 
 nav {
   height: 25vh;
-  width: 100vw;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 10vh;
+  font-size: 2rem;
+  color: #000;
+  border-top: solid 1px #606060;
+}
+
+footer a {
+  color: #606060;
 }
 
 a {
@@ -29,7 +53,7 @@ hr {
 
 .landingPage {
   height: 70vh;
-  width: 100%;
+  width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,30 +64,31 @@ hr {
 }
 
 .landingPage img {
-  margin-top: 3vh;
+  margin-top: 4vh;
   width: 9vw;
-  padding-left: 5vw;
+  margin-left: 5vw;
 }
 
-.titulo {
+.titulo h1 {
   font-weight: 600;
-  font-size: 6rem;
+  font-size: 5.5rem;
   text-align: left;
-  padding-left: 5vw;
+  margin-left: 5vw;
   color: #000;
 }
 
 .titulos {
   font-size: 4rem;
   font-weight: 600;
-  padding-left: 5vw;
+  margin-left: 5vw;
   color: #000;
+  margin-top: 4vh;
 }
 
 .subtitulo {
   color: #606060;
   text-align: left;
-  padding-left: 5vw;
+  margin-left: 5vw;
   font-weight: lighter;
 }
 
@@ -87,7 +112,7 @@ hr {
   color: #606060;
   margin-bottom: 5vh;
   padding-top: 1vh;
-  padding-left: 3vw;
+  margin-left: 3vw;
 }
 
 .trabajos {
@@ -100,7 +125,7 @@ hr {
       -ms-flex-direction: column;
           flex-direction: column;
   padding-bottom: 10vh;
-  padding-left: 5vw;
+  margin-left: 5vw;
   margin-top: 5vh;
 }
 
@@ -126,12 +151,14 @@ hr {
 
 .imagen img {
   width: 85vw;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .sobremiTitulo {
   font-size: 3rem;
   font-weight: 600;
-  padding-left: 2vw;
+  margin-left: 2vw;
   margin-bottom: 5vh;
   margin-top: 5vh;
   color: #000;
@@ -139,7 +166,7 @@ hr {
 
 .item {
   font-size: 1.4rem;
-  padding-left: 2vw;
+  margin-left: 2vw;
 }
 
 .item a {
@@ -184,23 +211,23 @@ hr {
   .sobremiTitulo {
     font-size: 3rem;
     font-weight: 600;
-    padding-left: 2vw;
+    margin-left: 2vw;
     margin-bottom: 5vh;
     margin-top: 5vh;
     -webkit-text-decoration: dotted 1px #000;
             text-decoration: dotted 1px #000;
     font-size: 4.5rem;
     font-weight: 600;
-    padding-left: 2vw;
+    margin-left: 2vw;
     margin-bottom: 5vh;
     margin-top: 5vh;
     text-decoration: dotted 1px #000;
   }
   .item {
     font-size: 1.4rem;
-    padding-left: 2vw;
+    margin-left: 2vw;
     font-size: 2.4rem;
-    padding-left: 2vw;
+    margin-left: 2vw;
   }
   .item a {
     color: #000;
@@ -222,7 +249,7 @@ hr {
   .titulo {
     width: 70vw;
     font-size: 7rem;
-    padding-left: 12vw;
+    margin-left: 12vw;
   }
   .subtitulo {
     font-size: 2.3rem;
@@ -233,14 +260,15 @@ hr {
 @media only screen and (min-width: 1200px) {
   .imagen img {
     width: 60vw;
-    -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   }
-  .sobremi {
+  .imagen .sobremi {
     width: 50vw;
   }
-  nav {
-    height: 10vh;
+  .imagen .sobremi p {
+    width: 50%;
+  }
+  .imagen nav {
+    height: 0vh;
   }
 }
 /*# sourceMappingURL=index.css.map */
