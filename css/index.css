@@ -10,6 +10,10 @@ html {
   padding: 0;
 }
 
+* {
+  outline: 1px solid #f00 !important;
+}
+
 iframe {
   background-color: white;
 }
@@ -53,7 +57,7 @@ hr {
 
 .landingPage {
   height: 70vh;
-  width: 100vw;
+  width: 98vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
