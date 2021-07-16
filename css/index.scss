@@ -18,20 +18,7 @@ nav {
 	height: 25vh;
 
 }
-footer{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	width: 100%;
-	height: 10vh;
-	font-size: 2rem;
-	color: $colorPrincipal;
-	border-top: solid 1px $colorSecundario;
-	a{
-		color: $colorSecundario;
-	}
-}
+
 a {
 	color: $colorPrincipal;
 }

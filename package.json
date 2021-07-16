@@ -1,11 +1,19 @@
 {
-  "name": "portfolio",
+  "name": "bue",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loleiii/portafolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/loleiii/portafolio/issues"
+  },
+  "homepage": "https://github.com/loleiii/portafolio#readme",
+  "description": ""
 }
